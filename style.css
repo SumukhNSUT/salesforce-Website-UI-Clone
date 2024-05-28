@@ -2,10 +2,90 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 html,
 body {
 	height: 100%;
 	width: 100%;
+}
+#main {
+	height: 100%;
+	width: 100%;
+}
+#logo {
+	height: 70%;
+	/* margin: 25px; */
+}
+#logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#header {
+	width: 100%;
+	height: 10%;
+
+	/* to not move header on scrolling pages */
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.texts {
+	color: rgb(0, 0, 92);
+	/* margin: 20px; */
+	display: flex;
+}
+.texts:hover {
+	color: rgb(0, 176, 211);
+}
+#contactDetails {
+	/* margin-left: 40px; */
+	font-weight: lighter;
+}
+.icon {
+	/* margin-left: 20px; */
+	padding: 10px;
+	/* make circular */
+	border-radius: 50%;
+}
+/* icon background to appear on hover */
+.icon:hover {
+	background-color: lightblue;
+}
+#login {
+	/* margin-left: 20px; */
+	display: flex;
+	padding: 10px;
+	border-radius: 50px;
+}
+#login:hover {
+	background-color: lightblue;
+}
+#try {
+	/* margin-left: 30px; */
+	background-color: green;
+	padding: 10px;
+	color: white;
+}
+/* hover action of try for free button */
+#try:hover {
+	background-color: rgb(0, 51, 0);
+}
+#fakeHeader {
+	width: 100%;
+	height: 10%;
+}
+#page1 {
+	width: 100%;
+	height: 90%;
+	background-color: salmon;
+}
+#page2 {
+	width: 100%;
+	height: 90%;
+	background-color: darkgrey;
 }
