@@ -26,13 +26,14 @@ body {
 
 #header {
 	width: 100%;
-	height: 10%;
+	height: 13%;
 
 	/* to not move header on scrolling pages */
 	position: fixed;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	background-color: white;
 }
 .texts {
 	color: rgb(0, 0, 92);
@@ -77,15 +78,104 @@ body {
 }
 #fakeHeader {
 	width: 100%;
-	height: 10%;
+	height: 13%;
 }
 #page1 {
 	width: 100%;
-	height: 90%;
-	background-color: salmon;
+	height: 87%;
 }
+#strip {
+	width: 100%;
+	height: 8%;
+	background-color: rgb(0, 0, 131);
+	color: white;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+#strip u {
+	margin-left: 20px;
+	font-weight: lighter;
+}
+#content {
+	width: 100%;
+	height: 76%;
+	/* background-color: wheat; */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#box1 {
+	height: 90%;
+	width: 47%;
+	background-color: white;
+	/* margin: 10px; */
+}
+#box2 {
+	height: 90%;
+	width: 47%;
+	background-color: grey;
+	/* margin: 10px; */
+}
+#box2 img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+#heading {
+	width: 100%;
+	height: 16%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(0, 0, 130);
+}
+#heading h1 {
+	font-weight: 600;
+}
+#box1 h1 {
+	font-weight: 600;
+	color: rgb(0, 0, 80);
+	font-size: 50px;
+	margin: 30px 10px;
+}
+#box1 p {
+	margin: 30px 10px;
+	font-size: x-large;
+	font-weight: 600;
+}
+
+#btns {
+	display: flex;
+	text-align: center;
+	border-radius: 5px;
+}
+#btn1 {
+	margin: 10px;
+	width: 23%;
+	padding: 10px 20px;
+	color: white;
+	background-color: rgb(89, 213, 255);
+}
+#btn1:hover {
+	background-color: rgb(0, 66, 88);
+}
+#btn2 {
+	margin: 10px;
+	width: 23%;
+	padding: 10px 20px;
+	color: rgb(89, 213, 255);
+	border: 1px solid rgb(89, 213, 255);
+}
+#btn2:hover {
+	background-color: rgb(89, 213, 255);
+	color: rgb(0, 67, 90);
+	border-color: rgb(0, 67, 90);
+}
+
 #page2 {
 	width: 100%;
-	height: 90%;
+	height: 87%;
 	background-color: darkgrey;
 }
